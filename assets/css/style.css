@@ -1,0 +1,50 @@
+#container{
+    margin: 20px;
+}
+
+/* Heading */
+.page-header{
+    color: white;
+    background-color: #4aaaa5;
+    height: 76px;
+    font-size: 27px;
+    text-align: center;
+    padding: 1px;
+}
+
+/* Instructions */
+#instructions{
+    background-color: pink;
+    padding: 1px 16px;
+}
+
+/* Sizing of crystals */
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    width: 74px;
+    height: 87px;
+    margin-top: 20px;
+}
+
+#guessingNumber{
+    background-color: mediumpurple;
+    padding: 1px 16px;
+    margin-top: 20px;
+    font-size: 14px;
+    height: 158px;
+}
+
+#scoreboard{
+    background-color: lightblue;
+    padding: 1px 16px;
+    margin-top: 20px;
+    height: 158px;
+}
+
+#totalScore{
+    background-color: darkseagreen;
+    padding: 1px 16px;
+    margin-top: 20px;
+    height: 158px;
+}
