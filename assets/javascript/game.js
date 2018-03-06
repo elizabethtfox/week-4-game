@@ -34,7 +34,7 @@ $( document ).ready(function() {
 
     // Wins
     function good(){
-        alert("You won!");
+        alert("Matchmaker, matchmaker, make me a match!");
         win++;
         $('#win').text(win);
         reset();
@@ -42,7 +42,7 @@ $( document ).ready(function() {
 
     // Losses
     function bad(){
-        alert ("You lose!");
+        alert ("Not a match!");
         loss++;
         $('#loss').text(loss);
         reset()
