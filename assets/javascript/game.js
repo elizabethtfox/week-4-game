@@ -3,6 +3,7 @@ $( document ).ready(function() {
     var targetNumber = Math.floor(Math.random() * ((120 - 19) + 1) + 19);
 
     $('#value').text(targetNumber);
+    console.log(targetNumber);
 
     // Variables to set random values to crystals (between 1-12)
     var purple = Math.floor(Math.random()*((12-1)+1)+ 1);
@@ -60,7 +61,7 @@ $( document ).ready(function() {
         }
     })
     $('#blue').on ('click', function(){
-        totalScore = totalScore + purple;
+        totalScore = totalScore + blue;
         console.log("New totalScore= " + totalScore);
         $('#yourScore').text(totalScore);
         if (totalScore == targetNumber){
@@ -71,7 +72,7 @@ $( document ).ready(function() {
         }
     })
     $('#red').on ('click', function(){
-        totalScore = totalScore + purple;
+        totalScore = totalScore + red;
         console.log("New totalScore= " + totalScore);
         $('#yourScore').text(totalScore);
         if (totalScore == targetNumber){
@@ -82,7 +83,7 @@ $( document ).ready(function() {
         }
     })
     $('#yellow').on ('click', function(){
-        totalScore = totalScore + purple;
+        totalScore = totalScore + yellow;
         console.log("New totalScore= " + totalScore);
         $('#yourScore').text(totalScore);
         if (totalScore == targetNumber){
@@ -91,5 +92,5 @@ $( document ).ready(function() {
         else if ( totalScore > targetNumber){
             bad();
         }
-    })
-};
+    });
+});
