@@ -28,7 +28,7 @@ $( document ).ready(function() {
         var blue = Math.floor(Math.random()*((12-1)+1)+ 1);
         var red = Math.floor(Math.random()*((12-1)+1)+ 1);
         var yellow = Math.floor(Math.random()*((12-1)+1)+ 1);
-        totalScore= 0;
+        totalScore = 0;
         $('#yourScore').text(totalScore);
     }
 
@@ -42,7 +42,7 @@ $( document ).ready(function() {
 
     // Losses
     function bad(){
-        alert ("Not a match!");
+        alert ("Too much, not a match!");
         loss++;
         $('#loss').text(loss);
         reset()
